@@ -1,5 +1,3 @@
-
-
 import java.util.*;
 
 public class IntSumDriver {
@@ -18,4 +16,3 @@ public class IntSumDriver {
 	System.out.println("\nThe Sum = " + sum);
 	}      //coersion - the plus in here makes the number part of the string
 }  
-	 
