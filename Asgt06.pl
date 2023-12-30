@@ -1,3 +1,5 @@
+% this is programed in prolog
+
 female(alice).
 female(betty).
 female(barbara).
@@ -76,7 +78,7 @@ isDuped([]). % when runs out of elements
 isDuped([X, X | T]) :- doubleTailof(T, NewT), isDuped(NewT). 
     % this calls question 3 and recursivly calls the remaining elements 
 
-% question 5 - is this right???? This took me forever and I am not sure
+% question 5 
 isDifference([], _, []).
 isDifference([H | T], Y, Z) :-
     member(H, Y), !, isDifference(T, Y, Z).
